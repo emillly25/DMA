@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DMA 대치수학</title>
+    <script
+      src="https://kit.fontawesome.com/e2221d5fad.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap" rel="stylesheet">
+    <style>
+    :root {
+  --text-color: #f0f4f5;
+  --background-color: #263343;
+  --accent-color: #d49466;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans pro";
+  background-color: #ffffff;
+  font-family: "Noto Serif KR", serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-color);
+  padding: 8px 15px;
+  background-color: #263343;
+  height: 45px;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.navbar__logo {
+  font-size: 24px;
+}
+.navbar__logo i {
+  color: darkseagreen;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+}
+.navbar__menu li {
+  padding: 8px 15px;
+}
+
+.navbar__menu li:hover {
+  background-color: #263343;
+  border-radius: 5px;
+  color: black;
+}
+.hr_1 {
+  display: flex;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.hr_1:nth-child(1)
+ {
+   margin-top: 50px;
+ }
+#admission {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+     .container {
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        margin-left: 10px;
+        
+    }
+    .item {
+        flex-basis: 100px;
+        flex-grow: 1;
+        padding-left: 10px;
+        margin: 5px;
+       
+    }
+    h3 {
+        color: darkblue;
+        font-size:30px;
+    }
+   .reservation {
+     background-color: powderblue;
+     padding: 30px;
+     text-align: center;
+     }
+  
+    .booking {
+      border-radius: 5px;
+      background-color: darkseagreen ;
+      padding: 40px;
+    
+    }
+    .booking_1 {
+      background-color: #f2f2f2;
+      padding:20px;
+    }
+    .booking_container {
+      display: flex;
+      justify-content: space-between;
+    }
+    input[type=text], select, textarea{
+  width: 500px; 
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+  
+#query {
+  font-family: "Source Sans pro";
+  height: 200px;
+}
+
+    input[type=submit] {
+      background-color: #263343;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-left:580px;
+    }
+    input[type=submit]:hover {
+      background-color: #4CAF50;
+    }
+    
+    .footer {
+  display: flex;
+  flex-direction: column;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #263343;
+  color: white;
+}
+.footer_1 {
+  padding: 5px;
+  margin-left: 20px;
+  font-size: 10px;
+}
+.footer_2 {
+  font-weight: bold;
+}  
+
+    
+    </style>
+</head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <i class="fas fa-atom"></i>
+        <a href="dma.html">DMA 대치수학</a>
+      </div>
+      <ul class="navbar__menu">
+        <li><a href="">DMA 소개</a></li>
+        <li><a href="">교육과정</a></li>
+        <li><a href="입학안내.html">입학안내</a></li>
+        <li><a href="facility.html">Facility</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li>
+          <a href="https://blog.naver.com/nanakiz/221315709749"
+            ><i class="fab fa-neos"> Blog</i></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div style="overflow-y: scroll">
+        <hr class="hr_1" /> <div id="admission"> 입학안내 </div> <hr class="hr_1">
+        <div class="container">
+          <div class="item">
+              <h3>STEP 1</h3>
+               <hr align="left"  style= border:solid 5px black; width=150px >
+              <strong>테스트 예약</strong>
+               <p style="font-size: 13px;">학생의 희망 진도 과정에 따라 테스트 과정이<br> 정해지니 전화예약 부탁드립니다.</p>
+          </div>
+      
+          <div class="item">
+              <h3>STEP 2</h3>
+               <hr align="left"  style= border:solid 5px black; width=150px >
+               <strong>테스트 및 상담</strong>
+               <p style="font-size: 13px;">예약된 날짜, 시간에 맞춰 테스트가 진행됩니다.<br>
+                  테스트 동안 학부모님께서는 학원에 관한 전반적인 신규상담을 받으실 수 있습니다.  </p>
+          </div>
+      
+          <div class="item">
+              <h3>STEP 3</h3>
+               <hr align="left"  style= border:solid 5px black; width=150px >
+               <strong>테스트 결과상담 및 반배정</strong>
+               <p style="font-size: 13px;">테스트 결과에 대해 원장님의 전문적이고 정확한 <br>결과상담이 진행됩니다. 결과상담은 방문상담을 원칙으로 하기만, 부득이 방문이 어려울 시 전화상담으로 진행됩니다.
+                  결과상담을 통해 학생 레벨과 과정에 맞는 반배정이 함께 이루어집니다. </p>
+          </div>
+          
+      
+          <div class="item"> 
+              <h3>STEP 4</h3>
+               <hr align="left"  style= border:solid 5px black; width=150px >
+               <strong>등록</strong>
+               <p style="font-size: 13px;">이 모든 과정이 끝나면 등록을 하시게 되며, 등록과 함께 플로우교육의 명품교육과 철저한 관리를 받으시게 됩니다.
+                  학부모님의 선택이 후회되지 않도록 최선을 다해 지도할 것을 약속드립니다</p>
+          </div>
+      </div>
+
+      <div class="reservation"><h1>상담문의</h1></div>
+      <div class="booking">
+      <div class="booking_1">
+        <div class="booking_container"> 
+        <div class="bookin_content1">
+        <form action="" method="get">
+          <input type="text"  name="name" placeholder="이름"> <br>
+          
+          <select id="school" name="school">
+            <option>학년</option>
+            <option>초등</option>
+            <option>중1</option>
+            <option>중2</option>
+            <option>중3</option>
+            <option>고1</option>
+            <option>고2</option>
+            <option>고3 문과</option>
+            <option>고3 이과</option>
+        </select> <br>
+        <input type="text"  name="number" placeholder="상담가능 전화번호"><br>
+       
+        <textarea id="query"placeholder="상담가능 시간과 간략한 문의사항을 적어주세요." raw="10" cols="100"  name="text"></textarea> 
+       </div>  
+       <div class="booking_content2"> <img src="앞문.jpg" width=600px height=400px></div>
+        </div>
+        </div>
+        </div>
+        <input type="submit" value="상담예약">
+
+
+
+        </form>
+      
+  
+    
+    <div class="footer">
+      <span class="footer_1 footer_2">대치수학 DMA </span>
+
+      <span class="footer_1">
+        대표: 김지혜 &nbsp; | &nbsp; 전화번호: 031-282-7749&nbsp; | &nbsp; 주소:
+        경기도 용인시 기흥구 동백중앙로283 골드프라자B동 805호 806호</span
+      >
+
+      <span class="footer_1">Copy right for SH.K</span>
+    </div>
+  </body>
+</html>

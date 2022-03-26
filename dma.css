@@ -1,0 +1,135 @@
+:root {
+  --text-color: #f0f4f5;
+  --background-color: #263343;
+  --accent-color: #d49466;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans pro";
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Noto Serif KR", serif;
+}
+
+h2 {
+  display: inline;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  color: var(--text-color);
+  padding: 8px 12px;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar__logo {
+  margin-right: 200px;
+}
+.navbar__logo i {
+  color: darkseagreen;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+}
+.navbar__menu li {
+  padding: 8px 15px;
+}
+
+.navbar__menu li:hover {
+  background-color: darkseagreen;
+  border-radius: 5px;
+  color: black;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #263343;
+  color: white;
+}
+.footer_1 {
+  padding: 5px;
+  margin-left: 20px;
+  font-size: 10px;
+}
+.footer_2 {
+  font-weight: bold;
+}
+
+.mySlides {
+  display: none;
+}
+.navvv {
+  position: absolute;
+  top: 0;
+}
+/* Slideshow container */
+.slideshow-container {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 720px;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
